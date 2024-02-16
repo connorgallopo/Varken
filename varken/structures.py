@@ -281,6 +281,7 @@ class SonarrQueue(NamedTuple):
     language: dict = None
     protocol: str = None
     quality: dict = None
+    seasonNumber: int = None
     size: float = None
     sizeleft: float = None
     status: str = None
