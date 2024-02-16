@@ -222,6 +222,7 @@ class SonarrTVShow(NamedTuple):
     id: int = None
     images: list = None
     imdbId: str = None
+    originalLanguage: str = None
     languageProfileId: int = None
     monitored: bool = None
     nextAiring: str = None
