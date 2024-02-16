@@ -214,6 +214,7 @@ class SonarrTVShow(NamedTuple):
     added: str = None
     airTime: str = None
     alternateTitles: list = None
+    monitorNewItems: bool = None
     certification: str = None
     cleanTitle: str = None
     ended: bool = None
