@@ -348,6 +348,7 @@ class RadarrMovie(NamedTuple):
 
 # Radarr Queue
 class RadarrQueue(NamedTuple):
+    added: str = None
     customFormats: list = None
     downloadClient: str = None
     downloadId: str = None
