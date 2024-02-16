@@ -277,6 +277,7 @@ class SonarrQueue(NamedTuple):
     customFormats: list = None
     customFormatScore: int = None
     downloadClient: str = None
+    episodeHasFile: bool = None
     downloadId: str = None
     episodeId: int = None
     downloadClientHasPostImportCategory: bool = None
